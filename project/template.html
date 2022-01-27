@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/feather-icons-web/feather.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <section class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-lg-3 col-xl-2 sidebar vh-100 ">
+           <div class="d-flex justify-content-between align-items-center mt-4">
+               <div class="d-flex align-items-center justify-content-center">
+                    <span class="p-2 bg-primary rounded mr-2 d-flex justify-content-center align-items-center">
+                        <i class="feather-shopping-bag"></i>
+                    </span>
+                    <span class="text-uppercase text-primary font-weight-bolder h-4">My shop</span>
+               </div>
+               <div class="hide-sidebar btn btn-light d-block btn-sm d-lg-none ">
+                <i class="feather-x text-primary" style="font-size: 2em;"></i>
+            </div>
+           </div>
+           <div class="nav-menu">
+            <ul class="list text-dark mt-3">
+                <li class="item-list active">
+                    <a href="#" class="list-link">
+                        <span>
+                            <i class="feather-home"></i>
+                            Dashboard
+                        </span>
+                    </a>
+                </li>
+                <li class="list-header pt-3 text-black-50">
+                    <span>
+                        Test Item
+                    </span>
+                </li>
+                <li class="item-list">
+                    <a href="#" class="list-link">
+                        <span>
+                            <i class="feather-menu"></i>
+                            Item List
+                        </span>
+                        <span class="badge rounded-pill bg-light text-dark text-center d-flex align-items-center justify-content-center"><span>15</span></span></span>
+                    </a>
+                    
+                </li>
+                <li class="list-header pt-3 text-black-50">
+                    <span>
+                        Test Item
+                    </span>
+                </li>
+                <li class="item-list">
+                    <a href="#" class="list-link">
+                        <span>
+                            <i class="feather-menu"></i>
+                            Item List
+                        </span>
+                        <span class="badge rounded-pill bg-light text-dark text-center d-flex align-items-center justify-content-center"><span>15</span></span></span>
+                    </a>
+                    
+                </li>
+                <li class="list-header pt-3 text-black-50">
+                    <span>
+                        Test Item
+                    </span>
+                </li>
+                <li class="item-list">
+                    <a href="#" class="list-link">
+                        <span>
+                            <i class="feather-menu"></i>
+                            Item List
+                        </span>
+                        <span class="badge rounded-pill bg-light text-dark text-center d-flex align-items-center justify-content-center"><span>15</span></span></span>
+                    </a>
+                    
+                </li>
+                <li class="item-list">
+                    <a href="#" class="list-link">
+                        <span>
+                            <i class="feather-plus-circle"></i>
+                            Add Item
+                        </span>
+                    </a>
+                </li>
+                <li class="list-header pt-3 text-black-50">
+                    <span>
+                        Test Item
+                    </span>
+                </li>
+                <li class="item-list">
+                    <a href="#" class="list-link">
+                        <span>
+                            <i class="feather-menu"></i>
+                            Item List
+                        </span>
+                        <span class="badge rounded-pill bg-light text-dark text-center d-flex align-items-center justify-content-center"><span>15</span></span></span>
+                    </a>
+                    
+                </li>
+                <li class="item-list">
+                    <a href="#" class="list-link">
+                        <span>
+                            <i class="feather-plus-circle"></i>
+                            Add Item
+                        </span>
+                    </a>
+                </li>
+                <li class="list-header pt-3 text-black-50">
+                    <span>
+                        Test Item
+                    </span>
+                </li>
+                <li class="item-list">
+                    <a href="#" class="list-link">
+                        <span>
+                            <i class="feather-menu"></i>
+                            Item List
+                        </span>
+                        <span class="badge rounded-pill bg-light text-dark text-center d-flex align-items-center justify-content-center"><span>15</span></span></span>
+                    </a>
+                    
+                </li>
+                <li class="item-list">
+                    <a href="#" class="list-link">
+                        <span>
+                            <i class="feather-plus-circle"></i>
+                            Add Item
+                        </span>
+                    </a>
+                </li>
+
+                <li class="list-header pt-3 text-black-50">
+                    <span>
+                        Manage Item
+                    </span>
+                </li>
+                <li class="item-list">
+                    <a href="item-add.html" class="list-link">
+                        <span>
+                            <i class="feather-plus-circle"></i>
+                            Add Item
+                        </span>
+                    </a>
+                </li>
+                <li class="item-list">
+                    <a href="item-list.html" class="list-link">
+                        <span>
+                            <i class="feather-menu"></i>
+                            Item List
+                        </span>
+                        <span class="badge rounded-pill bg-light text-dark text-center d-flex align-items-center justify-content-center"><span>15</span></span></span>
+                    </a>
+                    
+                </li>
+                <li class="list-spacer"></li>
+            </ul>
+        </div>
+        </div>
+        <div class="col-12 col-lg-9 col-xl-10 content vh-100">
+            <div class="row header mb-3">
+               <div class="col-12 ">
+                   <div class="bg-primary rounded d-flex justify-content-between align-items-center mt-2 p-2">
+                       <div class="show-sidebar btn btn-primary d-block d-lg-none">
+                           <i class="feather-menu text-light" style="font-size: 2em;"></i>
+                       </div>
+                       <form action="" method="post">
+                           <div class="form-inline">
+                               <input type="text" class="form-control  mr-2">
+                               <div class="btn bg-light rounded ">
+                                   <i class="feather-search text-primary font-weight-bolder"></i>
+                               </div>
+                           </div>
+                       </form>
+                       <div class="dropdown ">
+                        <button class="btn btn-light dropdown-toggle " type="button" data-toggle="dropdown">
+                            <img src="./img/user/avatar1.jpg" class="profile" alt=""> 
+                            <span class="font-weight-bolder">Thinzar Nwe</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">HTML</a></li>
+                          <li><a href="#">CSS</a></li>
+                          <li><a href="#">JavaScript</a></li>
+                        </ul>
+                      </div>
+                   </div>
+               </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-3 second-box">
+                 <div class="card card-four mb-3">
+                     <div class="card-body">
+                        <div class="row p-3">
+                            <div class="col-6 d-flex flex-column justify-content-between">
+                                <div class="d-flex justify-content-center align-items-center icon-shape">
+                                    <div class="text-white  h4">
+                                        <i class="feather-shopping-cart font-weight-bolder text-light"></i>
+                                    </div>
+                                </div>
+                                <p class=" text-light mb-0 ">Orders</p>
+                            </div>
+                            <div class="col-6 text-right d-flex flex-column justify-content-between">
+                                <p class=" text-light mb-0 font-weight-bolder" style="font-size: 25px;">690</p>
+                                <span  class="text-light mb-4">New</span>
+                                <p class="text-light mb-0">6,00,00</p>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-3 second-box">
+                    <div class="card card-one mb-3">
+                        <div class="card-body">
+                           <div class="row p-3">
+                               <div class="col-6 d-flex flex-column justify-content-between">
+                                   <div class="d-flex justify-content-center align-items-center icon-shape">
+                                       <div class="text-white  h4">
+                                           <i class="feather-users font-weight-bolder text-light"></i>
+                                       </div>
+                                   </div>
+                                   <p class=" text-light mb-0 ">Users</p>
+                               </div>
+                               <div class="col-6 text-right d-flex flex-column justify-content-between">
+                                   <p class=" text-light mb-0 font-weight-bolder" style="font-size: 25px;">1885</p>
+                                   <span  class="text-light mb-4">New</span>
+                                   <p class="text-light mb-0">12,229,00</p>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+                   </div>
+                   <div class="col-12 col-md-6 col-lg-6 col-xl-3 second-box">
+                    <div class="card card-two mb-3 border-0">
+                        <div class="card-body">
+                           <div class="row p-3">
+                               <div class="col-6 d-flex flex-column justify-content-between">
+                                   <div class="d-flex justify-content-center align-items-center icon-shape">
+                                       <div class="text-white  h4">
+                                           <i class="feather-map font-weight-bolder text-light"></i>
+                                       </div>
+                                   </div>
+                                   <p class=" text-light mb-0 ">Sales</p>
+                               </div>
+                               <div class="col-6 text-right d-flex flex-column justify-content-between">
+                                   <p class=" text-light mb-0 font-weight-bolder" style="font-size: 25px;">80%</p>
+                                   <span  class="text-light mb-4">Growth</span>
+                                   <p class="text-light mb-0">6,00,00</p>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+                   </div>
+
+                   <div class="col-12 col-md-6 col-lg-6 col-xl-3 second-box">
+                    <div class="card card-three mb-3 border-0">
+                        <div class="card-body">
+                           <div class="row p-3">
+                               <div class="col-6 d-flex flex-column justify-content-between">
+                                   <div class="d-flex justify-content-center align-items-center icon-shape">
+                                       <div class="text-white  h4">
+                                           <i class="feather-dollar-sign text-light"></i>
+                                       </div>
+                                   </div>
+                                   <p class=" text-light mb-0 ">Profits</p>
+                               </div>
+                               <div class="col-6 text-right d-flex flex-column justify-content-between">
+                                   <p class=" text-light mb-0 font-weight-bolder" style="font-size: 25px;">$890</p>
+                                   <span  class="text-light mb-4">Today</span>
+                                   <p class="text-light mb-0">$250,000</p>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+                   <div class="row align-items-end">
+                       <div class="col-12 col-xl-7">
+                           <div class="card overflow-hidden shadow mb-4">
+                               <div class="">
+                                   <div class="d-flex align-items-center justify-content-between p-3">
+                                       <div>
+                                           <h4>Order & Viewer</h4>
+                                       </div>
+                                       <div>
+                                          <img src="./img/user/avatar10.jpg" class="ov-img rounded-circle" alt="">
+                                          <img src="./img/user/avatar2.jpg" class="ov-img rounded-circle" alt="">
+                                          <img src="./img/user/avatar3.jpg" class="ov-img rounded-circle" alt="">
+                                          <img src="./img/user/avatar4.jpg" class="ov-img rounded-circle" alt="">
+                                          <img src="./img/user/avatar5.jpg" class="ov-img rounded-circle" alt=""> 
+                                       </div>
+                                   </div>
+                                   <canvas id="myChart" height="150"></canvas>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-12 col-md-6 col-xl-5">
+                         <div class="card mb-4">
+                             <div class="card-body" >
+                                <div class="card-item d-flex justify-content-between align-items-end" >
+                                    <div class="flex-grow-1">
+                                        <h4 class="mb-1">Book</h4>
+                                        <p class="font-weight-bolder text-black-50 ">200 MMK</p>
+                                        <div class="progress mb-4 ">
+                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div> 
+                                    <div >
+                                        <img src=".../../../../../SWD_WEB/Admin_Dashboard/project/img/item3.png" style="height: 200px;" alt="">
+                                    </div>
+                                </div>
+                             </div>
+                         </div>
+                       </div>
+                       <div class="col-12 col-md-6 col-xl-5">
+                           <div class="card mb-4">
+                               <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between p-3">
+                                    <div>
+                                        <h4>Order & Viewer</h4>
+                                    </div>
+                                    <div>
+                                      <i class="feather-pie-chart h4 text-primary"></i>
+                                    </div>
+                                </div>
+                                <canvas id="myChart1"  height="200"></canvas>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-12 col-xl-7">
+                       <div class="card mb-4">
+                           <div class="card-body">
+                            <div class="d-flex align-items-center justify-content-between p-3 pb-0">
+                                <div>
+                                    <h5>Suscriber List</h5>
+                                </div>
+                                <div>
+                                  <i class="feather-more-vertical h4 text-primary"></i>
+                                </div>
+                            </div>
+                            <hr class="mb-0">
+                            <table class="table table-hover suscriber-list mb-0">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">First</th>
+                                    <th scope="col">status</th>
+                                    <th scope="col">Handle</th>
+                                    <th scope="col">Action</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry the Bird</td>
+                                    <td>Jacob</td>
+                                    <td><span class="badge bg-success">open</span></td>
+                                    <td class=""><i class="feather-trash-2 text-danger text-center"></i></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry the Bird</td>
+                                    <td>Jacob</td>
+                                    <td><span class="badge bg-danger">close</span></td>
+                                    <td class=""><i class="feather-trash-2 text-danger text-center"></i></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td><span class="badge bg-success">open</span></td>
+                                    <td class=""><i class="feather-trash-2 text-danger text-center"></i></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry the Bird</td>
+                                    <td>Jacob</td>
+                                    <td><span class="badge bg-danger">close</span></td>
+                                    <td class=""><i class="feather-trash-2 text-danger text-center"></i></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry the Bird</td>
+                                    <td>Jacob</td>
+                                    <td><span class="badge bg-success">open</span></td>
+                                    <td class=""><i class="feather-trash-2 text-danger text-center"></i></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry the Bird</td>
+                                    <td>Jacob</td>
+                                    <td><span class="badge bg-danger">close</span></td>
+                                    <td class=""><i class="feather-trash-2 text-danger text-center"></i></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                           </div>
+                       </div>
+                       </div>
+                       <div class="col-4">
+                           <div class="card">
+                               <div class="card-body">
+                                   <h4 class="text-center">Apple watch</h4>
+                                   <img src="../project/img/watch.png" alt="">
+                                   <h5 class="text-center">The Apple Watch</h5>
+                                   <p class="text-center px-4"> One day only exclusive sale on our marketplace</p>
+                                   <hr>
+                                   <div class="btn btn-primary">$999/-</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="text-center mb-5">Music</h4>
+                                <img src="../project/img/headphones-2.png" class="img-1" alt="">
+                                <h5 class="text-center type">Headphonew</h5>
+                                <p class="text-center px-4"> One day only exclusive sale on our marketplace</p>
+                                <hr>
+                                <div class="btn btn-danger">$199/-</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="text-center mb-5 ">Iphone</h4>
+                                <img src="../project/img/iphonec.png" class="img-2"  alt="">
+                                <h5 class="text-center type1">The Apple Iphone X</h5>
+                                <p class="text-center px-4"> One day only exclusive sale on our marketplace</p>
+                                <hr>
+                                <div class="btn btn-warning ">$299/-</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card mt-4 card-four">
+                           <div class="card-body p-5 d-flex justify-content-center align-items-center flex-column">
+                            <img src="../project/img/apple-watch.png" class="img-3" alt="">
+                            <h3 class="text-light">50 % off</h3>
+                            <p class="text-light"> On apple Watch</p>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card mt-4 card-one">
+                           <div class="card-body p-5 d-flex justify-content-center align-items-center flex-column">
+                            <img src="../project/img/printer.png" class="img-3" alt="">
+                            <h3 class="text-light">50 % off</h3>
+                            <p class="text-light"> On apple Watch</p>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card mt-4 card-two">
+                           <div class="card-body p-5 d-flex justify-content-center align-items-center flex-column">
+                            <img src="../project/img/laptop.png" class="img-3" alt="">
+                            <h3 class="text-light">50 % off</h3>
+                            <p class="text-light"> On apple Watch</p>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card mt-4 card-three">
+                           <div class="card-body p-5 d-flex justify-content-center align-items-center flex-column">
+                            <img src="../project/img/bowling.png" class="img-3" alt="">
+                            <h3 class="text-light">50 % off</h3>
+                            <p class="text-light"> On apple Watch</p>
+                           </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+ </section>
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="../../JQuery/JS/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <script src="./vendor/chart_js/Chart.min.js"></script>
+ <script src="./js/dashboard.js"></script>
+ <script src="js/app.js"></script>
+</body>
+</html>

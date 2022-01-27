@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --primary-color:#f3f3f3;
+}
+
+.content{
+    background-color:var(--primary-color) ;
+    overflow: scroll;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 25%) inset;;
+}
+.header{
+    position: sticky;
+    top: 0.25rem;
+    z-index: 1;
+}
+@media screen and (max-width:780px) {
+    .sidebar{
+        width: 300px;
+        position:fixed !important;
+        background-color: white;
+        z-index:2;
+        margin-left: -307px;
+    }
+}
+.profile{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+.icon-shape{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    /* background-color: #000000; */
+    background: rgba(0,0,0,0.2);
+    /* opacity: 0.7; */
+    /* background: transparent; */
+}
+.card-four{
+    border: none;
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.card-one{
+    border: none;
+    background: #f2709c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.card-two{
+    border: none;
+    background: #c21500;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.card-three{
+    border: none;
+    background: #1D976C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border:#1D976C !important,
+
+}
+.ov-img{
+    margin-left: -25px;
+}
+
+.suscriber-list{
+    transition: 0.3s;
+    cursor: pointer;
+}
+tr:hover{
+    background-color: #f2f2f2;
+ 
+}
+.suscriber-list:active{
+    transform: scale(1.03);
+    
+}
+.btn{
+    margin-left: 120px;
+}
+.head-btn{
+    background-color: ;
+}
+
+.type{
+    margin-top: 60px;
+}
+
+.type1{
+    margin-top: 28px;
+}
+.img-1{
+    margin-left: 50px;
+}
+.img-2{
+    margin-left: 78px;
+}
+.img-3{
+    width: 60px;
+    height: 60px;
+}
+.list-header{
+    padding: 10px 0px;
+    text-transform: uppercase;
+    color: #afafafee;
+}
+
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list-link{
+    text-decoration: none;
+    color: var(--dark);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.list-link:hover{
+    color: var(--dark);
+    text-decoration: none;
+}
+.item-list{
+    padding: 10px;
+}
+.item-list.active{
+    background-color:#0d6efd !important;
+    border-radius: 0.25rem;
+    color: white;
+}
+.item-list:hover{
+    background-color: rgb(226, 225, 225);
+    border-radius: 0.25rem;
+}
+.list-spacer{
+    padding: 10px;
+}
+
+.sidebar{
+    overflow-y: scroll;
+}
+
+.show-sidebar{
+    cursor: pointer;
+}
+
+
+
+
